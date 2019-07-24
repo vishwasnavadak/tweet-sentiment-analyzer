@@ -1,0 +1,1 @@
+[24-Jul-2015 14:32:21 Etc/GMT] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/sagricag/public_html/demo/vishwas/twitter/analyzer/index.php on line 63

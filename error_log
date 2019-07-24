@@ -1,0 +1,48 @@
+[24-Jul-2015 14:32:51 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sagricag/public_html/demo/vishwas/twitter/twitter.php:45) in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 70
+[24-Jul-2015 14:34:51 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sagricag/public_html/demo/vishwas/twitter/twitter.php:45) in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 70
+[10-Jan-2016 13:36:52 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[10-Jan-2016 13:36:52 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[10-Jan-2016 13:37:42 Etc/GMT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sagricag/public_html/demo/vishwas/twitter/twitter.php:45) in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 70
+[27-Jul-2016 08:18:51 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[27-Jul-2016 08:18:51 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[27-Jul-2016 08:20:54 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[27-Jul-2016 08:20:54 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[27-Jul-2016 08:21:21 Etc/GMT] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Resolving timed out after 5515 milliseconds' in /home/sagricag/public_html/demo/vishwas/twitter/twitteroauth/src/TwitterOAuth.php:346
+Stack trace:
+#0 /home/sagricag/public_html/demo/vishwas/twitter/twitteroauth/src/TwitterOAuth.php(277): Abraham\TwitterOAuth\TwitterOAuth->request('https://api.twi...', 'GET', 'Authorization: ...', Array)
+#1 /home/sagricag/public_html/demo/vishwas/twitter/twitteroauth/src/TwitterOAuth.php(248): Abraham\TwitterOAuth\TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#2 /home/sagricag/public_html/demo/vishwas/twitter/twitteroauth/src/TwitterOAuth.php(177): Abraham\TwitterOAuth\TwitterOAuth->http('GET', 'https://api.twi...', 'statuses/user_t...', Array)
+#3 /home/sagricag/public_html/demo/vishwas/twitter/twitter.php(57): Abraham\TwitterOAuth\TwitterOAuth->get('statuses/user_t...', Array)
+#4 {main}
+  thrown in /home/sagricag/public_html/demo/vishwas/twitter/twitteroauth/src/TwitterOAuth.php on line 346
+[27-Jul-2016 08:21:37 Etc/GMT] PHP Notice:  Undefined index: queryt in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 18
+[27-Jul-2016 08:21:37 Etc/GMT] PHP Notice:  Undefined index: typ in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 19
+[27-Jul-2016 08:21:55 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[27-Jul-2016 08:21:55 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[27-Jul-2016 08:22:16 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[27-Jul-2016 08:22:16 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[27-Jul-2016 08:22:40 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[27-Jul-2016 08:22:40 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[31-Oct-2016 04:58:53 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[31-Oct-2016 04:58:53 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[31-Oct-2016 04:59:27 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[31-Oct-2016 04:59:27 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[20-Feb-2017 08:18:07 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[20-Feb-2017 08:18:07 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60
+[25-Feb-2017 14:24:37 Etc/GMT] PHP Notice:  Undefined index: queryt in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 18
+[25-Feb-2017 14:24:37 Etc/GMT] PHP Notice:  Undefined index: typ in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 19
+[27-Feb-2017 04:17:33 Etc/GMT] PHP Notice:  Undefined index: queryt in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 18
+[27-Feb-2017 04:17:33 Etc/GMT] PHP Notice:  Undefined index: typ in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 19
+[28-Feb-2017 06:39:03 Etc/GMT] PHP Notice:  Undefined index: queryt in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 18
+[28-Feb-2017 06:39:03 Etc/GMT] PHP Notice:  Undefined index: typ in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 19
+[21-Aug-2017 09:52:58 Etc/GMT] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Failed to connect to api.twitter.com port 443: Connection timed out' in /home/sagricag/public_html/demo/vishwas/twitter/twitteroauth/src/TwitterOAuth.php:346
+Stack trace:
+#0 /home/sagricag/public_html/demo/vishwas/twitter/twitteroauth/src/TwitterOAuth.php(277): Abraham\TwitterOAuth\TwitterOAuth->request('https://api.twi...', 'GET', 'Authorization: ...', Array)
+#1 /home/sagricag/public_html/demo/vishwas/twitter/twitteroauth/src/TwitterOAuth.php(248): Abraham\TwitterOAuth\TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#2 /home/sagricag/public_html/demo/vishwas/twitter/twitteroauth/src/TwitterOAuth.php(177): Abraham\TwitterOAuth\TwitterOAuth->http('GET', 'https://api.twi...', 'statuses/user_t...', Array)
+#3 /home/sagricag/public_html/demo/vishwas/twitter/twitter.php(57): Abraham\TwitterOAuth\TwitterOAuth->get('statuses/user_t...', Array)
+#4 {main}
+  thrown in /home/sagricag/public_html/demo/vishwas/twitter/twitteroauth/src/TwitterOAuth.php on line 346
+[31-May-2018 10:35:30 Etc/GMT] PHP Notice:  Undefined index: queryt in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 18
+[31-May-2018 10:35:30 Etc/GMT] PHP Notice:  Undefined index: typ in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 19
+[20-Oct-2018 04:26:34 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/sagricag/public_html/demo/vishwas/twitter/twitter.php on line 60

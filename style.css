@@ -1,0 +1,63 @@
+body{
+	font-family: trebuchet ms;
+	
+}
+.mbox{
+	position: relative;
+	display: block;
+	margin: 50px auto;
+	padding: 30px;
+	width:260px;
+	height: 220px;
+	background: rgba(240,240,240,.8);
+	border-radius:8px;
+	border:1px #DDD solid;
+	box-shadow: 0 0 30px #ddd;
+	text-align: center;
+}
+input[type="text"]{
+	width:260px;
+	height:30px;
+	border:1px #fEEfEf solid;
+	border-radius: 5px;
+	box-shadow: 0 0 1px 1px;
+	margin:5px auto;
+	padding: 2px;
+}
+input[type="submit"], input[type="reset"] {
+	margin:2px;
+	width:70px;
+	height: 30px;
+	padding: 5px;
+	margin:10px 10px;
+	background: #bbb;
+	font-size: 15px;
+	font-family: verdana;
+	border-radius: 5px;
+	border:1px #bbb solid;
+}
+.container {
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+	display: block;
+	width: 950px;
+	min-height: 450px;
+	height: auto;
+	background:rgba(253,253,253,1);
+	border-radius: 15px;
+	border:#999 1px solid;
+	//overflow: hidden;
+	word-wrap:break-word;
+}
+.tweet {
+	position: relative;
+	display: block;
+	padding: 5px;
+	margin: 3px;
+	width:auto;
+	height: auto;
+	background: #eee;
+	border-radius: 5px;
+	border: rgba(253,253,253,1) 1px solid;
+}
